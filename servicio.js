@@ -17,6 +17,8 @@ fetch(uri,parametrosPeticion)
 .then(function(respuesta){
     console.log(respuesta);
     console.log(respuesta.tracks);
+    console.log(respuesta.tracks[0]);
+    console.log(respuesta.tracks[0].name);
 })
 .catch(function(error){
     console.log(error);

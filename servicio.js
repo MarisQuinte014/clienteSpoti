@@ -1,6 +1,6 @@
 let uri="https://api.spotify.com/v1/artists/3YcBF2ttyueytpXtEzn1Za/top-tracks?market=us";
 
-let token="Bearer BQBpZB28bLHENCC4mvznOZ9i7aGxisACaTOJ5fgGDnHAwWpFIVvN8EtzMtT27pzBtk7Jz8yGTAd4pjeGusCyH8SQZpcQfDZwE-qwpFPGilNzQqfEh3uX4oHDO3dvRFIZIoYmaRqn0VrajKEuUbUbudcl5aBUqrY";
+let token="Bearer BQDlZPSEBZdCLzyOPqmLv6NBoozoytzW_3wmhAeJgIptRlVjPnvu0zeor1QHadxzJ0wJWF55fw0XQld1kpUEVXJgiSbOmXHjyl_873_wqICvFP7u-Vc5gz3gpKe1y8SbJpDXtHqf64XWxqZQU300MiCC7wZSFqg";
 
 let parametrosPeticion={
  method:"GET",
@@ -16,6 +16,7 @@ fetch(uri,parametrosPeticion)
 })
 .then(function(respuesta){
     console.log(respuesta);
+    console.log(respuesta.tracks);
 })
 .catch(function(error){
     console.log(error);

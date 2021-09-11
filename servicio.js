@@ -51,3 +51,11 @@ function pintarDatos(datos){
     })
     
 }
+
+/*
+Api = Mesero, permite cambio de cliiente con servidor (cambio de datos cliente-servidor)
+Peticion = Cliente al servidor 2 elementos (cabecera y cuerpo) cabecera= uri (a donde voy (einpot= servicio especifico a donde estoy accediendo) 4 tipos de metodos
+get, post, put, delete) cuando el cliente llegue tengo que tener datos Json(objeto) donde guardo mucha informacion (atributo y valor)
+Respuenta = 
+
+*/
